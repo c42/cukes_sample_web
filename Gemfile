@@ -48,7 +48,9 @@ end
 # gem 'debugger', group: [:development, :test]
 
 group :test do
-  gem 'cucumber-rails', :require => false
-  # database_cleaner is not required, but highly recommended
+  gem 'rspec-rails'
+  gem 'cucumber-rails'
+  gem 'capybara'
   gem 'database_cleaner'
+  gem 'factory_girl_rails'
 end
