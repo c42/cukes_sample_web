@@ -25,6 +25,9 @@ module NavigationHelpers
       when /^the forgot password page$/
         new_admin_user_password_path
 
+      when /^the password submit page$/
+        admin_user_password_path
+
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
