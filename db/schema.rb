@@ -50,7 +50,7 @@ ActiveRecord::Schema.define(version: 20140430120152) do
     t.string   "name"
     t.text     "description"
     t.float    "price"
-    t.integer  "item_code"
+    t.string   "item_code"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
