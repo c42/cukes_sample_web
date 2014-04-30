@@ -77,6 +77,8 @@ GEM
       cucumber (>= 1.2.0)
       nokogiri (>= 1.5.0)
       rails (>= 3.0.0)
+    cucumber-rails-training-wheels (1.0.0)
+      cucumber-rails (>= 1.1.1)
     database_cleaner (1.2.0)
     devise (3.2.4)
       bcrypt (~> 3.0)
@@ -87,11 +89,6 @@ GEM
     diff-lcs (1.2.5)
     erubis (2.7.0)
     execjs (2.0.2)
-    factory_girl (4.4.0)
-      activesupport (>= 3.0.0)
-    factory_girl_rails (4.4.1)
-      factory_girl (~> 4.4.0)
-      railties (>= 3.0.0)
     formtastic (2.3.0.rc3)
       actionpack (>= 3.0)
     gherkin (2.12.2)
@@ -219,8 +216,8 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 4.0.0)
   cucumber-rails
+  cucumber-rails-training-wheels
   database_cleaner
-  factory_girl_rails
   jbuilder (~> 1.2)
   jquery-rails
   rails
