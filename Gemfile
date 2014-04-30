@@ -53,4 +53,9 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'cucumber-rails-training-wheels'
+  gem 'Selenium'
+  gem 'selenium-client'
+  gem 'selenium-webdriver'
+  gem 'launchy'
+  gem 'factory_girl_rails'
 end

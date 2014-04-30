@@ -5,6 +5,13 @@
 # files.
 
 require 'cucumber/rails'
+require 'selenium/client'
+require 'selenium/webdriver'
+require 'factory_girl'
+# require 'capybara/cucumber' commented out because it doesn't want to work with it in
+# Capybara.default_driver = :selenium
+
+Capybara.default_selector = :css
 
 # Capybara defaults to CSS3 selectors rather than XPath.
 # If you'd prefer to use XPath, just uncomment this line and adjust any
